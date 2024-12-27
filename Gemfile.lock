@@ -369,7 +369,7 @@ DEPENDENCIES
   jbuilder
   json (~> 2.9, >= 2.9.1)
   kamal
-  pg (~> 1.1, >= 1.1.4)
+  pg
   propshaft
   puma (>= 5.0)
   rails (~> 8.0.1)
@@ -378,7 +378,7 @@ DEPENDENCIES
   solid_cable
   solid_cache
   solid_queue
-  sqlite3 (>= 2.1)
+  sqlite3
   stimulus-rails
   thruster
   turbo-rails
