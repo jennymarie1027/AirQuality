@@ -18,6 +18,5 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: airquality_production
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   url: <%= ENV['DATABASE_URL'] %>
